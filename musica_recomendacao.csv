@@ -1,84 +1,84 @@
 tipo,id,nome,titulo,genero,peso,relacao_origem,relacao_destino
-Usuario,U001,Juvenal,,,,
-Usuario,U002,Carla,,,,
-Usuario,U003,Diego,,,,
-Usuario,U004,Amanda,,,,
-Usuario,U005,Lucas,,,,
-Usuario,U006,Fernanda,,,,
-Usuario,U007,Rafael,,,,
-Usuario,U008,Bruna,,,,
-Usuario,U009,Tiago,,,,
-Usuario,U010,Mariana,,,,
-Musica,M001,,Sol de Verão,MPB,,,
-Musica,M002,,Noite Azul,Jazz,,,
-Musica,M003,,Jazz Tropical,Jazz,,,
-Musica,M004,,Samba do Coração,Samba,,,
-Musica,M005,,Rock do Amanhã,Rock,,,
-Musica,M006,,Eletronic Dreams,Eletrônica,,,
-Musica,M007,,Sertão Profundo,Sertanejo,,,
-Musica,M008,,Clássico Lunar,Clássico,,,
-Musica,M009,,Reggae da Praia,Reggae,,,
-Musica,M010,,Indie da Serra,Indie,,,
-Artista,A001,Banda Solar,,,,
-Artista,A002,Trio da Madrugada,,,,
-Artista,A003,Rock Urbano,,,,
-Artista,A004,DJ Frequência,,,,
-Artista,A005,Sertanejo Raiz,,,,
-Artista,A006,Orquestra Brasil,,,,
-Artista,A007,Reggae Roots,,,,
-Artista,A008,Indie Brasil,,,,
-Artista,A009,Samba 360,,,,
-Artista,A010,Jazz Brasil,,,,
-Genero,G001,MPB,,,,
-Genero,G002,Jazz,,,,
-Genero,G003,Samba,,,,
-Genero,G004,Rock,,,,
-Genero,G005,Eletrônica,,,,
-Genero,G006,Sertanejo,,,,
-Genero,G007,Clássico,,,,
-Genero,G008,Reggae,,,,
-Genero,G009,Indie,,,,
-Genero,G010,Pop,,,,
-OUVIU,,,Sol de Verão,,0.8,U001,M001
-CURTIU,,,Sol de Verão,,1.0,U001,M001
-OUVIU,,,Noite Azul,,0.6,U002,M002
-CURTIU,,,Jazz Tropical,,0.9,U003,M003
-OUVIU,,,Samba do Coração,,0.7,U004,M004
-CURTIU,,,Rock do Amanhã,,0.8,U005,M005
-OUVIU,,,Eletronic Dreams,,0.5,U006,M006
-CURTIU,,,Sertão Profundo,,0.9,U007,M007
-OUVIU,,,Clássico Lunar,,0.7,U008,M008
-CURTIU,,,Reggae da Praia,,0.8,U009,M009
-OUVIU,,,Indie da Serra,,0.6,U010,M010
-SEGUE,,,Banda Solar,,,U001,A001
-SEGUE,,,Trio da Madrugada,,,U002,A002
-SEGUE,,,Rock Urbano,,,U003,A003
-SEGUE,,,DJ Frequência,,,U004,A004
-SEGUE,,,Sertanejo Raiz,,,U005,A005
-SEGUE,,,Orquestra Brasil,,,U006,A006
-SEGUE,,,Reggae Roots,,,U007,A007
-SEGUE,,,Indie Brasil,,,U008,A008
-SEGUE,,,Samba 360,,,U009,A009
-SEGUE,,,Jazz Brasil,,,U010,A010
-INTERPRETADA_POR,,,Sol de Verão,,,M001,A001
-INTERPRETADA_POR,,,Noite Azul,,,M002,A002
-INTERPRETADA_POR,,,Jazz Tropical,,,M003,A010
-INTERPRETADA_POR,,,Samba do Coração,,,M004,A009
-INTERPRETADA_POR,,,Rock do Amanhã,,,M005,A003
-INTERPRETADA_POR,,,Eletronic Dreams,,,M006,A004
-INTERPRETADA_POR,,,Sertão Profundo,,,M007,A005
-INTERPRETADA_POR,,,Clássico Lunar,,,M008,A006
-INTERPRETADA_POR,,,Reggae da Praia,,,M009,A007
-INTERPRETADA_POR,,,Indie da Serra,,,M010,A008
-PERTENCE_A,,,Sol de Verão,,,M001,G001
-PERTENCE_A,,,Noite Azul,,,M002,G002
-PERTENCE_A,,,Jazz Tropical,,,M003,G002
-PERTENCE_A,,,Samba do Coração,,,M004,G003
-PERTENCE_A,,,Rock do Amanhã,,,M005,G004
-PERTENCE_A,,,Eletronic Dreams,,,M006,G005
-PERTENCE_A,,,Sertão Profundo,,,M007,G006
-PERTENCE_A,,,Clássico Lunar,,,M008,G007
-PERTENCE_A,,,Reggae da Praia,,,M009,G008
-PERTENCE_A,,,Indie da Serra,,,M010,G009
-SIMILARIDADE,,,Jazz Tropical → Samba do Coração,,3,M003,M004
-SIMILARIDADE,,,Noite Azul → Jazz Tropical,,2,M002,M003
+Usuario,U001,Juvenal,,,,,
+Usuario,U002,Carla,,,,,
+Usuario,U003,Diego,,,,,
+Usuario,U004,Amanda,,,,,
+Usuario,U005,Lucas,,,,,
+Usuario,U006,Fernanda,,,,,
+Usuario,U007,Rafael,,,,,
+Usuario,U008,Bruna,,,,,
+Usuario,U009,Tiago,,,,,
+Usuario,U010,Mariana,,,,,
+Musica,M001,,Sol de Verão,MPB,,,, 
+Musica,M002,,Noite Azul,Jazz,,,, 
+Musica,M003,,Jazz Tropical,Jazz,,,, 
+Musica,M004,,Samba do Coração,Samba,,,, 
+Musica,M005,,Rock do Amanhã,Rock,,,, 
+Musica,M006,,Electronic Dreams,Eletrônica,,,, 
+Musica,M007,,Sertão Profundo,Sertanejo,,,, 
+Musica,M008,,Clássico Lunar,Clássico,,,, 
+Musica,M009,,Reggae da Praia,Reggae,,,, 
+Musica,M010,,Indie da Serra,Indie,,,, 
+Artista,A001,Banda Solar,,,,,,
+Artista,A002,Trio da Madrugada,,,,,,
+Artista,A003,Rock Urbano,,,,,,
+Artista,A004,DJ Frequência,,,,,,
+Artista,A005,Sertanejo Raiz,,,,,,
+Artista,A006,Orquestra Brasil,,,,,,
+Artista,A007,Reggae Roots,,,,,,
+Artista,A008,Indie Brasil,,,,,,
+Artista,A009,Samba 360,,,,,,
+Artista,A010,Jazz Brasil,,,,,,
+Genero,G001,MPB,,,,,,
+Genero,G002,Jazz,,,,,,
+Genero,G003,Samba,,,,,,
+Genero,G004,Rock,,,,,,
+Genero,G005,Eletrônica,,,,,,
+Genero,G006,Sertanejo,,,,,,
+Genero,G007,Clássico,,,,,,
+Genero,G008,Reggae,,,,,,
+Genero,G009,Indie,,,,,,
+Genero,G010,Pop,,,,,,
+OUVIU,,,,,0.8,U001,M001
+CURTIU,,,,,1.0,U001,M001
+OUVIU,,,,,0.6,U002,M002
+CURTIU,,,,,0.9,U003,M003
+OUVIU,,,,,0.7,U004,M004
+CURTIU,,,,,0.8,U005,M005
+OUVIU,,,,,0.5,U006,M006
+CURTIU,,,,,0.9,U007,M007
+OUVIU,,,,,0.7,U008,M008
+CURTIU,,,,,0.8,U009,M009
+OUVIU,,,,,0.6,U010,M010
+SEGUE,,,,,,U001,A001
+SEGUE,,,,,,U002,A002
+SEGUE,,,,,,U003,A003
+SEGUE,,,,,,U004,A004
+SEGUE,,,,,,U005,A005
+SEGUE,,,,,,U006,A006
+SEGUE,,,,,,U007,A007
+SEGUE,,,,,,U008,A008
+SEGUE,,,,,,U009,A009
+SEGUE,,,,,,U010,A010
+INTERPRETADA_POR,,,,,,M001,A001
+INTERPRETADA_POR,,,,,,M002,A002
+INTERPRETADA_POR,,,,,,M003,A010
+INTERPRETADA_POR,,,,,,M004,A009
+INTERPRETADA_POR,,,,,,M005,A003
+INTERPRETADA_POR,,,,,,M006,A004
+INTERPRETADA_POR,,,,,,M007,A005
+INTERPRETADA_POR,,,,,,M008,A006
+INTERPRETADA_POR,,,,,,M009,A007
+INTERPRETADA_POR,,,,,,M010,A008
+PERTENCE_A,,,,,,M001,G001
+PERTENCE_A,,,,,,M002,G002
+PERTENCE_A,,,,,,M003,G002
+PERTENCE_A,,,,,,M004,G003
+PERTENCE_A,,,,,,M005,G004
+PERTENCE_A,,,,,,M006,G005
+PERTENCE_A,,,,,,M007,G006
+PERTENCE_A,,,,,,M008,G007
+PERTENCE_A,,,,,,M009,G008
+PERTENCE_A,,,,,,M010,G009
+SIMILARIDADE,,,,,3,M003,M004
+SIMILARIDADE,,,,,2,M002,M003
