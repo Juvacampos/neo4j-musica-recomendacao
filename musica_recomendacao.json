@@ -1,0 +1,50 @@
+{
+  "usuarios": [
+    {"id": "U001", "nome": "Juvenal"},
+    {"id": "U002", "nome": "Carla"},
+    {"id": "U003", "nome": "Diego"},
+    {"id": "U004", "nome": "Amanda"},
+    {"id": "U005", "nome": "Lucas"},
+    {"id": "U006", "nome": "Fernanda"},
+    {"id": "U007", "nome": "Rafael"},
+    {"id": "U008", "nome": "Bruna"},
+    {"id": "U009", "nome": "Tiago"},
+    {"id": "U010", "nome": "Mariana"}
+  ],
+  "musicas": [
+    {"id": "M001", "titulo": "Sol de Verão", "genero": "MPB"},
+    {"id": "M002", "titulo": "Noite Azul", "genero": "Jazz"},
+    {"id": "M003", "titulo": "Jazz Tropical", "genero": "Jazz"},
+    {"id": "M004", "titulo": "Samba do Coração", "genero": "Samba"},
+    {"id": "M005", "titulo": "Rock do Amanhã", "genero": "Rock"},
+    {"id": "M006", "titulo": "Eletronic Dreams", "genero": "Eletrônica"},
+    {"id": "M007", "titulo": "Sertão Profundo", "genero": "Sertanejo"},
+    {"id": "M008", "titulo": "Clássico Lunar", "genero": "Clássico"},
+    {"id": "M009", "titulo": "Reggae da Praia", "genero": "Reggae"},
+    {"id": "M010", "titulo": "Indie da Serra", "genero": "Indie"}
+  ],
+  "artistas": [
+    {"id": "A001", "nome": "Banda Solar"},
+    {"id": "A002", "nome": "Trio da Madrugada"},
+    {"id": "A003", "nome": "Rock Urbano"},
+    {"id": "A004", "nome": "DJ Frequência"},
+    {"id": "A005", "nome": "Sertanejo Raiz"},
+    {"id": "A006", "nome": "Orquestra Brasil"},
+    {"id": "A007", "nome": "Reggae Roots"},
+    {"id": "A008", "nome": "Indie Brasil"},
+    {"id": "A009", "nome": "Samba 360"},
+    {"id": "A010", "nome": "Jazz Brasil"}
+  ],
+  "generos": [
+    "MPB", "Jazz", "Samba", "Rock", "Eletrônica", "Sertanejo", "Clássico", "Reggae", "Indie", "Pop"
+  ],
+  "interacoes": [
+    {"usuario": "U001", "musica": "M001", "tipo": "OUVIU", "peso": 0.8},
+    {"usuario": "U001", "musica": "M001", "tipo": "CURTIU", "peso": 1.0},
+    {"usuario": "U002", "musica": "M002", "tipo": "OUVIU", "peso": 0.6},
+    {"usuario": "U003", "musica": "M003", "tipo": "CURTIU", "peso": 0.9},
+    {"usuario": "U004", "musica": "M004", "tipo": "OUVIU", "peso": 0.7},
+    {"usuario": "U005", "musica": "M005", "tipo": "CURTIU", "peso": 0.8},
+    {"usuario": "U006", "musica": "M006", "tipo": "OUVIU", "peso": 0.5},
+    {"usuario": "U007", "musica": "M007", "tipo": "CURTIU", "peso": 0.9},
+    {"
